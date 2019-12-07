@@ -14,11 +14,11 @@ for a given task.
 Framework Indonesia
 *******************
 
-Jan lupa ya di subscribe channel youtubenya saya banyak belajar dari dia
-`Framework Indonesia https://www.youtube.com/channel/UCFCDiQFrqj5zPMQnV-2zO2A`
+Jan lupa ya di subscribe channel youtubenya `Framework Indonesia https://www.youtube.com/channel/UCFCDiQFrqj5zPMQnV-2zO2A`_ saya banyak belajar dari dia
+
 
 ************
 Installation
 ************
 
-kalo banya yang error error, diupload dulu file tokoOnline.sql ke phpmyadmin kelean ya soalnya konfigurasinya sedikit berbeda
+kalo banya yang error error, diupload dulu file ``tokoOnline.sql`` ke phpmyadmin kelean ya soalnya konfigurasinya sedikit berbeda
