@@ -14,7 +14,7 @@ for a given task.
 Framework Indonesia
 *******************
 
-Jan lupa ya di subscribe channel youtubenya `Framework Indonesia https://www.youtube.com/channel/UCFCDiQFrqj5zPMQnV-2zO2A`_ saya banyak belajar dari dia
+Jan lupa ya di subscribe channel youtubenya `Framework Indonesia <https://www.youtube.com/channel/UCFCDiQFrqj5zPMQnV-2zO2A>`_ saya banyak belajar dari dia
 
 
 ************
