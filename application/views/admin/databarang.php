@@ -2,7 +2,7 @@
     <button class="btn btn-block btn-warning font-weight-bold my-3" data-toggle="modal" data-target="#addProduct"><i class="fas fa-sm fa-plus"></i> Add Product</button>
 
     <table class="table table-borderless">
-        <thead class="thead-dark">
+        <thead class="thead-dark text-center">
             <tr>
                 <th>No</th>
                 <th>Nama Barang</th>
@@ -21,12 +21,12 @@
                     <td><?= $no++; ?></td>
                     <td><?= $brg['nama_brg']; ?></td>
                     <td><?= $brg['keterangan_brg']; ?></td>
-                    <td><?= $brg['kategori_brg']; ?></td>
-                    <td><?= number_format($brg['harga_brg']); ?></td>
-                    <td><?= $brg['stok_brg']; ?></td>
+                    <td class="text-center"><?= $brg['kategori_brg']; ?></td>
+                    <td class="text-center"><?= number_format($brg['harga_brg']); ?></td>
+                    <td class="text-center"><?= $brg['stok_brg']; ?></td>
                     <td><button class="btn btn-success btn-sm"><i class="fas fa-search"></i></button></td>
-                    <td><button class="btn btn-primary btn-sm"><i class="fas fa-pencil-alt"></i></button></td>
-                    <td><button class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button></td>
+                    <td><?= anchor('admin/DataBarang/edit/' . $brg['id_brg'], '<button class="btn btn-primary btn-sm"><i class="fas fa-pencil-alt"></i></button>') ?></td>
+                    <td><?= anchor('admin/DataBarang/delete/' . $brg['id_brg'], '<button class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>') ?></td>
                 </tr>
 
             <?php endforeach; ?>

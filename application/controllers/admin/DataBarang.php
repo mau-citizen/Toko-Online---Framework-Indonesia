@@ -46,4 +46,37 @@ class DataBarang extends CI_Controller
         $this->ModelBarang->tambahBarang($data, 'tb_barang');
         redirect('admin/DataBarang');
     }
+
+    public function edit($id)
+    {
+        $where = array('id_brg' => $id);
+        $data['barang'] = $this->ModelBarang->editBarang($where, 'tb_barang')->result_array();
+        $this->load->view('templatesadmin/header');
+        $this->load->view('templatesadmin/sidebar');
+        $this->load->view('admin/editbarang', $data);
+        $this->load->view('templatesadmin/footer');
+    }
+
+    public function update()
+    {
+        $id = $this->input->post('id_brg');
+        $nama_brg = $this->input->post('nama_brg');
+        $keterangan_brg = $this->input->post('keterangan_brg');
+        $kategori_brg = $this->input->post('kategori_brg');
+        $harga_brg = $this->input->post('harga_brg');
+        $stok_brg = $this->input->post('stok_brg');
+
+        $data = array(
+            'nama_brg' => $nama_brg,
+            'keterangan_brg' => $keterangan_brg,
+            'kategori_brg' => $kategori_brg,
+            'harga_brg' => $harga_brg,
+            'stok_brg' => $stok_brg
+        );
+
+        $where = array('id_brg' => $id);
+
+        $this->ModelBarang->updateBarang($data, $where, 'tb_barang');
+        redirect('admin/DataBarang');
+    }
 }
