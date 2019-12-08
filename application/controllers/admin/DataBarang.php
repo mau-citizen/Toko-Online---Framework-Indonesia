@@ -79,4 +79,19 @@ class DataBarang extends CI_Controller
         $this->ModelBarang->updateBarang($data, $where, 'tb_barang');
         redirect('admin/DataBarang');
     }
+
+    public function delete($id)
+    {
+        $where = array(
+            'id_brg' => $id
+        );
+
+        // delete gambar
+        $gambar = $this->ModelBarang->editBarang($where, 'tb_barang')->result_array()[0]['gambar_brg'];
+        $path = './assets/uploads/' . $gambar;
+        unlink($path);
+
+        $this->ModelBarang->hapusBarang($where, 'tb_barang');
+        redirect('admin/DataBarang');
+    }
 }

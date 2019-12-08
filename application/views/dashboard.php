@@ -22,7 +22,7 @@
 
           <div class="row">
             <?php foreach ($barang as $brg) : ?>
-              <div class="card m-3" style="width: 20rem;">
+              <div class="card m-3" style="width: 320px; height:470px;">
                 <img src="<?= base_url('assets/uploads/') . $brg['gambar_brg'] ?>" class="card-img-top">
                 <div class="card-body">
                   <h5 class="card-title"><?= $brg['nama_brg']; ?></h5>

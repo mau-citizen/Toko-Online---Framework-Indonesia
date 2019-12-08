@@ -23,4 +23,15 @@ class ModelBarang extends CI_Model
         $this->db->where($where);
         $this->db->update($table, $data);
     }
+
+    public function hapusBarang($where, $table)
+    {
+        // $gambar = $this->db->get_where($where, $table);
+        // $path = './assets/uploads/' . $gambar['gambar_brg'];
+
+        // unlink($path);
+
+        $this->db->where($where);
+        $this->db->delete($table);
+    }
 }

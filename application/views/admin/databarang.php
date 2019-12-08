@@ -77,7 +77,7 @@
                     </div>
                     <div class="form-group">
                         <label for="gambar_brg">Gambar</label><br>
-                        <input type="file" name="gambar_brg" id="gambar_brg">
+                        <input type="file" class="form-control-file" name="gambar_brg" id="gambar_brg">
                     </div>
 
                     <div class="modal-footer">
