@@ -27,9 +27,11 @@
                 <div class="card-body">
                   <h5 class="card-title"><?= $brg['nama_brg']; ?></h5>
                   <p class="card-text text-truncate"><?= $brg['keterangan_brg']; ?></p>
-                  <small class="badge badge-secondary text-wrap mb-3">Rp <?= number_format($brg['harga_brg']); ?></small><br>
-                  <a href="#" class="btn btn-block btn-warning font-weight-bold">Add to cart</a>
+                  <small class="badge badge-secondary text-wrap mb-3">Rp <?= number_format($brg['harga_brg'], 0, ",", "."); ?></small><br>
+
+                  <?= anchor('dashboard/addToCart/' . $brg['id_brg'], '<div class="btn btn-block btn-warning font-weight-bold mb-2">Add to cart</div>') ?>
                   <a href="#" class="btn btn-block btn-secondary">Details</a>
+
                 </div>
               </div>
             <?php endforeach; ?>
