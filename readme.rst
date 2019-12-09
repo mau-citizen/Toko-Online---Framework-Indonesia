@@ -30,7 +30,7 @@ Completition based Videos From `Framework Indonesia <https://www.youtube.com/cha
 
 +---------------------------------------+--------------------+
 |              Videos Part              |    Completition    |
-+:=====================================:+:==================:+
+|:=====================================:|:==================:|
 |     Persiapan dan Perancangan         |          ✔         |
 +---------------------------------------+--------------------+
 |     Menampilkan Produk                |          ✔         |
