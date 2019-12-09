@@ -22,3 +22,42 @@ Installation
 ************
 
 kalo banya yang error error, diupload dulu file ``tokoOnline.sql`` ke phpmyadmin kelean ya soalnya konfigurasinya sedikit berbeda
+
+************
+Completition based Videos From `Framework Indonesia <https://www.youtube.com/channel/UCFCDiQFrqj5zPMQnV-2zO2A>`_
+************
+
+Persiapan dan Perancangan ✔
+Menampilkan Produk ✔
+Membuat Halaman Admin ✔
+Input Produk ✔
+Update dan Delete Data Produk ✔
+Fitur Keranjang Belanja ✔
+Detail Keranjang Belanja ✔
+Hapus Kerajang dan Pembayaran
+Invoice Penjualan
+Detail Invoice Penjualan
+Detail Produk
+Kategori Produk
+Mengelola Stok Barang
+Login User
+Registrasi Akun
+Logout
+
++---------------------------------------+---------------+
+|              Videos Part              | Completition  |
++=======================================+===============+
+|     Persiapan dan Perancangan         |       ✔       |
++---------------------------------------+---------------+
+|     Menampilkan Produk                |       ✔       |
++---------------------------------------+---------------+
+|     Input Produk                      |       ✔       |
++---------------------------------------+---------------+
+|     Update dan Delete Data Produk     |       ✔       |
++---------------------------------------+---------------+
+|     Fitur Keranjang Belanja           |       ✔       |
++---------------------------------------+---------------+
+|     Detail Keranjang Belanja          |       ✔       |
++---------------------------------------+---------------+
+
+
