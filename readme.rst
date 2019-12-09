@@ -62,4 +62,12 @@ Completition based Videos From `Framework Indonesia <https://www.youtube.com/cha
 |     Logout                            |          ❌        |
 +---------------------------------------+--------------------+
 
+|          Videos Part          |       Completition        |
+|:-----------------------------:|:-------------------------:|
+|   Persiapan dan Perancangan   |             ✔             |
+|       Menampilkan Produk      |             ✔             |
+|          Input Produk         |             ✔             |
+| Update dan Delete Data Produk |             ✔             |
+|    Fitur Keranjang Belanja    |             ✔             |
+|    Detail Keranjang Belanja   |             ❌             |
 
