@@ -34,4 +34,44 @@ class Dashboard extends CI_Controller
         $this->load->view('keranjang');
         $this->load->view('templates/footer');
     }
+
+    public function hapusKeranjang($rowid)
+    {
+        $data = array(
+            'rowid' => $rowid,
+            'qty' => 0
+        );
+        $this->cart->update($data);
+        redirect('dashboard/cartDetails');
+    }
+
+    public function checkout()
+    {
+        $total = $this->cart->total_items();
+        $data["tag"] = "keranjangkosong";
+
+        if ($total === 0) {
+            $this->load->view('templates/header');
+            $this->load->view('templates/sidebar');
+            $this->load->view('prosespesanan', $data);
+            $this->load->view('templates/footer');
+        } else {
+            $this->load->view('templates/header');
+            $this->load->view('templates/sidebar');
+            $this->load->view('checkout');
+            $this->load->view('templates/footer');
+        }
+    }
+
+    public function prosesPesanan()
+    {
+        $data["tag"] = "keranjangadaisi";
+
+        $this->load->view('templates/header');
+        $this->load->view('templates/sidebar');
+        $this->load->view('prosespesanan', $data);
+        $this->load->view('templates/footer');
+
+        $this->cart->destroy();
+    }
 }

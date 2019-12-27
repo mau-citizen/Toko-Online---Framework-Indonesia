@@ -21,7 +21,7 @@ Jan lupa ya di subscribe channel youtubenya `Framework Indonesia <https://www.yo
 Installation
 ************
 
-kalo banya yang error error, diupload dulu file ``tokoOnline.sql`` ke phpmyadmin kelean ya soalnya konfigurasinya sedikit berbeda
+kalo banya yang error error, diupload dulu file ``tokoOnline.sql`` ke phpmyadmin kelean ya soalnya konfigurasinya sedikit berbeda, lalu jangan lupa ganti ``url`` di dalam ``config``
 
 ************
 Completition based Videos From `Framework Indonesia <https://www.youtube.com/channel/UCFCDiQFrqj5zPMQnV-2zO2A>`_
@@ -43,7 +43,7 @@ Completition based Videos From `Framework Indonesia <https://www.youtube.com/cha
 +---------------------------------------+--------------------+
 |     Detail Keranjang Belanja          |          ✔         |
 +---------------------------------------+--------------------+
-|     Hapus Kerajang dan Pembayaran     |          ❌        |
+|     Hapus Kerajang dan Pembayaran     |          ✔         |
 +---------------------------------------+--------------------+
 |     Invoice Penjualan                 |          ❌        |
 +---------------------------------------+--------------------+
