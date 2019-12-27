@@ -45,7 +45,7 @@ Completition based Videos From `Framework Indonesia <https://www.youtube.com/cha
 +---------------------------------------+--------------------+
 |     Hapus Kerajang dan Pembayaran     |          ✔         |
 +---------------------------------------+--------------------+
-|     Invoice Penjualan                 |          ❌        |
+|     Invoice Penjualan                 |          ✔         |
 +---------------------------------------+--------------------+
 |     Detail Invoice Penjualan          |          ❌        |
 +---------------------------------------+--------------------+

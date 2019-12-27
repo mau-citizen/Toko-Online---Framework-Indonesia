@@ -67,11 +67,15 @@ class Dashboard extends CI_Controller
     {
         $data["tag"] = "keranjangadaisi";
 
-        $this->load->view('templates/header');
-        $this->load->view('templates/sidebar');
-        $this->load->view('prosespesanan', $data);
-        $this->load->view('templates/footer');
-
-        $this->cart->destroy();
+        $is_processed = $this->ModelInvoice->index();
+        if ($is_processed) {
+            $this->load->view('templates/header');
+            $this->load->view('templates/sidebar');
+            $this->load->view('prosespesanan', $data);
+            $this->load->view('templates/footer');
+            $this->cart->destroy();
+        } else {
+            echo "Maaf pesanan anda gagal diproses";
+        }
     }
 }

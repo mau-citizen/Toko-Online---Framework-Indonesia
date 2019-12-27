@@ -39,7 +39,7 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-         <a class="nav-link" href="<?= base_url('admin/Invoices'); ?>">
+         <a class="nav-link" href="<?= base_url('admin/Invoice'); ?>">
             <i class="fas fa-fw fa-file-alt"></i>
             <span>Invoices</span></a>
       </li>
